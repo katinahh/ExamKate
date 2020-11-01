@@ -8,7 +8,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .header--logo img{
@@ -31,9 +30,49 @@ body{
     border-radius: 25px 0 25px 0; }
 
 .filters{
+    margin: 20px;
+    padding: 10px 0;
     background-color:#d3d3d3;
-    width: 250px;
+    width: 200px; 
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column; */
 }
 .filters p{
     margin: 0;
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+}
+
+.filters b{
+    font-size: 14px;
+}
+.search{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form--other{
+    margin-top: 10px;
+}
+
+.filters input, .filters select{
+    width: 180px;
+}
+
+.filter--button{
+    margin: 3px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+.filter--button:hover{
+    border-radius: 20px;
+    background-color: rgb(115, 255, 115);
 }

@@ -18,21 +18,21 @@
         </nav>
     </header> 
     <main>
-         <form class="filters"> 
-                <p>
-                    <b>Name</b><br>
-                    <input type="text" placeholder="Enter your name">
-                </p>
-                <p>
-                    <b>Password</b><br>
-                    <input type="password" placeholder="Enter your password">
-                </p>  
-    
-                <p>
-                    <input type="text"><br>
-                    <input type="button" value="Search">
-                </p>
-    
+        <form class="filters">
+            <div class="registration">
+                <p class="form--filter"><b>Name</b></p>
+                <input type="text" placeholder="Enter your name">
+
+                <p class="form--filter"><b>Password</b></p>
+                <input type="password" placeholder="Enter your password">
+            </div>
+            <div class="search">
+                <input type="text"><br>
+                <button class="filter--button" value="Search">Search</button>
+                <!-- <input type="button" > -->
+            </div>
+            <div class="filter--sort">
+                <b>Sort</b><br>
                 <select>
                     <option>Choose your country</option>
                     <option>Ukraine</option>
@@ -41,27 +41,37 @@
                     <option>Germany</option>
                     <option>USA</option>
                 </select>
-                <p>
-                    <b>Filter</b><br>
-                    <input type="checkbox" name="Filter" value="1"><br>
-                    <input type="checkbox" name="Filter" value="2"><br>
-                    <input type="checkbox" name="Filter" value="3"><br>
-                </p>
-                <p>
-                    <b>Category</b><br>
-                    <input type="radio" name="Category" value="4"><br>
-                    <input type="radio" name="Category" value="5"><br>
-                    <input type="radio" name="Category" value="6"><br>
-                </p>
-                <p>
-                    <b>Price</b><br>
-                    <input type="range" min="1" max="10" value="5">
-                </p>
-                    <b>Date</b><br>
-                    <input id="date" type="date">
-                </p>
-            </form>
-    
+            </div>
+            <div class="form--other">
+                <p class="form--filter"><b>Filter</b></p>
+                <input type="checkbox" name="Filter" value="1"><br>
+                <input type="checkbox" name="Filter" value="2"><br>
+                <input type="checkbox" name="Filter" value="3"><br>
+            </div>
+            <div class="form--other">
+                <p class="form--filter"><b>Category</b></p>
+                <input type="radio" name="Category" value="4"><br>
+                <input type="radio" name="Category" value="5"><br>
+                <input type="radio" name="Category" value="6"><br>
+            </div>
+            <div class="form--other">
+                <p class="form--filter"><b>Price</b></p>
+                <input type="range" min="1" max="10" value="5">
+            </div>
+            <div class="form--other">
+                <p class="form--filter"><b>Date</b></p>
+                <input id="date" type="date">
+            </div>
+
+            
+
+            
+
+            
+
+            
+      
+        </form>   
             <!-- <form>
                 <label for="username"><b>Name</b></label><br>
                 <input type="text" id="username" name="username" placeholder="Enter your name"><br>
@@ -74,7 +84,7 @@
                 <input type="button" value="Search">
               </form> -->
     
-            
+             
         <section class="content">
 
         </section>
