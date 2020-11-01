@@ -131,5 +131,14 @@ h1, h2, p{
     border: 1px solid;
     border-radius: 10px;
     color: #ffffff;
+}
 
+.footer{
+    height: 50px;
+    margin-top: 30px;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
