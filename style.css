@@ -2,7 +2,9 @@ body{
     background-color:rgb(255, 232, 127);
     margin: 0;
 }
-
+h1, h2, p{
+    margin: 0;
+}
 .header{
     background-color: black;
     display: flex;
@@ -35,7 +37,7 @@ body{
     margin: 20px 20px 0 20px;
     padding: 10px 0;
     background-color:#d3d3d3;
-    width: 200px; 
+    width: 350px; 
     text-align: center;
     /* display: flex;
     flex-wrap: wrap;
@@ -63,20 +65,19 @@ body{
 }
 
 .filters input, .filters select{
-    width: 170px;
-
+    width: 160px;
 }
 
 .filter--button{
     margin: 3px;
     width: 90px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 0.5px solid;
 }
 
 .filter--button:hover{
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgb(115, 255, 115);
 }
 
@@ -90,4 +91,45 @@ body{
     display: flex;
     flex-wrap: wrap;
     /* width: 1100px; */
+    align-items: center;
+}
+.img--product img{
+    width: 200px;
+}
+.content--block h1{
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content--block h2{
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.content--price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content--block__2{
+    padding: 10px;
+}
+
+.content--price button{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(63, 245, 63);
+    border: 0.3px solid;
+    border-radius: 10px;
+}
+
+.content--price button:hover{
+    background-color: rgb(211, 55, 62);
+    border: 1px solid;
+    border-radius: 10px;
+    color: #ffffff;
+
 }
