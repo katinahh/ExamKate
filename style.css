@@ -1,5 +1,4 @@
 body{
-    /* background-color:rgb(255, 232, 127); */
     margin: 0;
 }
 h1, h2, p{
@@ -11,24 +10,20 @@ h1, h2, p{
     justify-content: space-around;
     align-items: center;
 }
-
 .header--logo img{
     height: 50px;
     margin: 2px;
 }
-
 .nav--menu{
     color: #ffffff;
     text-decoration: none;
     font-size: 14pt;
     padding: 7px 14px;
-    /* margin: 0 10px; */
 }
 .nav--menu:hover{
     color: #000000;
     background-color: #ffffff;
     padding: 7px 14px;
-    /* font-weight: bold; що робити, щоб кнопки не "стрибали" */
     border-radius: 25px 0 25px 0; }
 .very--main{
     display: flex;
@@ -39,17 +34,8 @@ h1, h2, p{
     background-color:#d3d3d3;
     width: 350px; 
     text-align: center;
-    /* display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column; */
-}
 .filters p{
     margin: 0;
-    /* display: flex;
-    align-content: center;
-    justify-content: center; */
 }
 
 .filters b{
